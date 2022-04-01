@@ -34,13 +34,15 @@
     padding: 16px;
     background-color: rgb(242,216,214);
     min-height: 229px;
+    word-break: break-all;
 }
 .c2 {
     float: left;
     width: 65%;
     padding: 16px 16px 36px 16px;
     background-color: rgb(252,247,247);
-    min-height: 204px;
+    min-height: 229px;
+    word-break: break-all;
   }
 
 .row2 {
@@ -68,25 +70,34 @@
     margin-top: 30px;
 }
 .summary{
-    margin-top: 50px;
+    margin-top: 39px;
 }
 .c3 {
     float: left;
     width: 35%;
     padding: 16px;
     background-color:rgb(250,239,239);
-    height: 622px;
+    height: 675px;
+    word-break: break-all;
 }
 .c4 {
     float: left;
 width: 65%;
 padding: 16px;
 background-color: rgb(255,255,255);
-min-height: 622px;
+min-height: 675px;
+word-break: break-all;
 }
+
+.summary1{
+    margin-top: 30px;
+}
+
 .line{
     width: 50px;
-    border: 1px solid black;
+    height: 2px;
+    margin-bottom: 4px;
+    background: #000;
 }
 .email{
      
@@ -109,32 +120,45 @@ min-height: 622px;
 }
 
 .fa-solid, .fas {
-    border-radius: 0px;
+   
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
-    margin-top: 11px;
+   
     /* background-color: white; */
-    margin-right: 10px;
+  
 }
 
 .image{
     width: 17px;
-    height: 20px;
-    margin-top: 5px;
-    margin-right: 5px;
 }
 
 .location{
     width: 18px;
-    margin-top: 10px;
-    margin-right: 10px;
 }
 
-/* @media only screen and (max-width:600px){
-    .row1{
-        color: brown;
-    }
-} */
+#number{
+    margin-bottom: 5px;
+}
+
+.stream{
+    margin-top: 10px;
+}
+
+.logo{
+    border-radius: 38px;
+    background-color: white;
+    margin-right: 10px;
+    padding: 8px 0px 0px 0px;
+    height: 31px;
+    width: 31px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.paragraph1 {
+    margin-top: 14px;
+}
 
 @media only screen and (max-width:667px){
     .c1{
@@ -164,5 +188,10 @@ min-height: 622px;
         margin-top: 10px;
     }
 
+    .summary1{
+        margin-top: 0px;
+    }
+
 }
+
 
